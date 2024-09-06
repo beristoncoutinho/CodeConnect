@@ -1,0 +1,32 @@
+#comment-date-time{
+    font-size: small;
+}
+.avtar {
+    height: 53px;
+    width: 53px;
+    /* Adjust the width as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-content {
+    flex-grow: 1;
+}
+
+.name-date {
+    margin: 0;
+    justify-content: flex-start;
+    color: #333;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*  comment section */
+.comment-container {
+    display: flex;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}

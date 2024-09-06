@@ -1,0 +1,187 @@
+/* Global Styles */
+h3 {
+  font-size: 50px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.title-description {
+  font-family: system-ui;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  margin-top: 81px;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.jumbotron img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Ask Question Button */
+.ask-question {
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: rgb(48, 73, 212);
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.ask-question:hover {
+  background-color: rgb(13, 42, 203);
+}
+
+/* Questions Styles */
+.questions {
+  margin: 10px 10px 10px 10px;
+}
+
+.ques {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.avtar {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.inner-question {
+  height: 9vh;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 20px;
+  }
+}
+
+.browse-questions {
+  margin-left: 10px;
+  display: flex;
+  align-items: baseline;
+}
+
+.community-img {
+  width: 40vw;
+  height: 60vh;
+  margin-left: 80px;
+}
+
+.row-content {
+  margin-top: 30px;
+}
+
+.ques-title {
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+
+.ques-description {
+  margin: 0;
+  padding-top: 8px;
+  font-family: unset;
+}
+
+/* style for opening modal  */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#questionTitle {
+  margin-left: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.modal-content {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px 40px 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------Styles for the form elements-------- */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for buttons */
+.button-group {
+  text-align: right;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.cancel {
+  background-color: #ccc;
+}
+
+.heading-add-question {
+  padding-bottom: 18px;
+}
+
+.label-question-title {
+  padding-bottom: 10px;
+}
+
+/* ------------Modal style Ends---------------- */
